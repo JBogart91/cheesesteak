@@ -2,7 +2,9 @@
   <div>
     <nav-bar :items="links"></nav-bar>
     <main>
-      <nuxt></nuxt>
+      <div class="container">
+        <nuxt></nuxt>
+      </div>
     </main>
   </div>
 </template>
@@ -30,5 +32,11 @@ export default {
     background-color: white;
     overflow-y: auto;
     padding: 16px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    width: 72%;
   }
 </style>
