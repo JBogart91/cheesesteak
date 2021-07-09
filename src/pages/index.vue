@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>Hello, World</h1>
+    <h1>John Bogart</h1>
+    <p>Welcome</p>
   </div>
 </template>
 
