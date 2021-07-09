@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-wrap">
     <main>
       <nuxt></nuxt>
     </main>
@@ -11,8 +11,12 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-  main {
+  .page-wrap {
     background-color: white;
     overflow-y: auto;
+  }
+
+  main {
+    padding: 16px;
   }
 </style>
