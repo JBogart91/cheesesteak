@@ -490,7 +490,7 @@ export default [
     runtime: 117
   },
   {
-    name: ['The Dark Knight'],
+    name: 'The Dark Knight',
     year: 2008,
     director: ['Christopher Nolan'],
     genre: ['action', 'crime', 'drama'],
