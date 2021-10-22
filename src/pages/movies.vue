@@ -1,12 +1,13 @@
 <template>
   <div>
     <h1>Movie Picker</h1>
-    <p>{{movie}}</p>
+    <movie-card :movie="movie" />
   </div>
 </template>
 
 <script>
 import movies from '../models/movies'
+import MovieCard from '../components/movieCard.vue'
 
 const randomMovie = (moviesArray) => {
   return moviesArray[Math.floor(Math.random() * moviesArray.length)]
@@ -17,6 +18,9 @@ export default {
     return {
       movie: randomMovie(movies)
     } 
+  },
+  components: {
+    MovieCard
   }
 }
 </script>
