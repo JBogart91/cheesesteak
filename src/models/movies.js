@@ -302,7 +302,7 @@ export default [
   },
   {
     name: 'Léon: The Professional',
-    year: 1992,
+    year: 1994,
     director: ['Luc Besson'],
     genre: ['action', 'crime', 'drama'],
     runtime: 110
