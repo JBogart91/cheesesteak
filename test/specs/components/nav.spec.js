@@ -4,8 +4,8 @@ import Nav from '@/src/components/nav.vue'
 
 let wrapper
 const items = [
-  { href: '/cheese', label: 'Cheese'},
-  { href: '/mushrooms', label: 'Mushrooms'}
+  { href: '/cheese', label: 'Cheese' },
+  { href: '/mushrooms', label: 'Mushrooms' }
 ]
 
 const expectedLinks = [
@@ -48,5 +48,5 @@ test('creates the correct set of links with the expected properties', t => {
       isActive: linkClass.includes('active')
     }
   })
-  t.deepEqual(generatedLinks, expectedLinks )
+  t.deepEqual(generatedLinks, expectedLinks)
 })

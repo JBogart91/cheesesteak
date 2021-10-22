@@ -26,6 +26,6 @@ export default {
     scss: '~/assets/styles/main.scss'
   },
   css: [
-    "~/assets/styles/main.scss"
+    '~/assets/styles/main.scss'
   ]
 }
