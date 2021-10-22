@@ -1,21 +1,21 @@
 <template>
   <div>
     <h1>Movie Picker</h1>
-    <ul>
-      <li v-for="movie in movies" :key="movie.name">
-        {{ movie.name }}
-      </li>
-    </ul>
+    <p>{{movie}}</p>
   </div>
 </template>
 
 <script>
 import movies from '../models/movies'
 
+const randomMovie = (moviesArray) => {
+  return moviesArray[Math.floor(Math.random() * moviesArray.length)]
+}
+
 export default {
   data: function () {
     return {
-      movies
+      movie: randomMovie(movies)
     } 
   }
 }
