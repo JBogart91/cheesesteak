@@ -462,10 +462,269 @@ export default [
     runtime: 89
   },
   {
-    name: '',
-    year: 19,
-    director: '',
-    genre: [''],
-    runtime: 1
+    name: 'Star Wars: Episode IV - A New Hope',
+    year: 1977,
+    director: 'George Lucas',
+    genre: ['action', 'adventure', 'fantasy'],
+    runtime: 121
   },
+  {
+    name: 'Star Wars: Episode V - The Empire Strikes Back',
+    year: 1980,
+    director: 'Irvin Kershner',
+    genre: ['action', 'adventure', 'fantasy'],
+    runtime: 124
+  },
+  {
+    name: 'Star Wars: Episode VI - Return of the Jedi',
+    year: 1983,
+    director: 'Richard Marquand',
+    genre: ['action', 'adventure', 'fantasy'],
+    runtime: 131
+  },
+  {
+    name: 'The Big Lebowski',
+    year: 1998,
+    director: ['Joel Coen', 'Ethan Coen'],
+    genre: ['comedy', 'crime', 'sport'],
+    runtime: 117
+  },
+  {
+    name: 'The Dark Knight',
+    year: 2008,
+    director: 'Christopher Nolan',
+    genre: ['action', 'crime', 'drama'],
+    runtime: 152
+  },
+  {
+    name: 'The Deer Hunter',
+    year: 1978,
+    director: 'Michael Cimino',
+    genre: ['war', 'drama'],
+    runtime: 183
+  },
+  {
+    name: 'The Departed',
+    year: 2006,
+    director: 'Martin Scorsese',
+    genre: ['crime', 'drama', 'thriller'],
+    runtime: 151
+  },
+  {
+    name: 'The Evil Dead',
+    year: 1981,
+    director: 'Sam Raimi',
+    genre: ['horror'],
+    runtime: 85
+  },
+  {
+    name: 'The Godfather',
+    year: 1972,
+    director: 'Francis Ford Coppola',
+    genre: ['crime', 'drama'],
+    runtime: 175
+  },
+  {
+    name: 'The Good, the Bad and the Ugly',
+    year: 1966,
+    director: 'Sergio Leone',
+    genre: ['western'],
+    runtime: 148
+  },
+  {
+    name: 'The Goonies',
+    year: 1985,
+    director: 'Richard Donner',
+    genre: ['adeventure', 'comedy', 'family'],
+    runtime: 114
+  },
+  {
+    name: 'The Grand Budapest Hotel',
+    year: 2014,
+    director: 'Wes Anderson',
+    genre: ['adeventure', 'comedy', 'crime'],
+    runtime: 99
+  },
+  {
+    name: 'The Great Dictator',
+    year: 1940,
+    director: 'Charles Chaplin',
+    genre: ['comedy', 'drama', 'war'],
+    runtime: 125
+  },
+  {
+    name: 'The Green Mile',
+    year: 1999,
+    director: 'Frank Darabont',
+    genre: ['crime', 'drama', 'fantasy'],
+    runtime: 189
+  },
+  {
+    name: 'Untouchable',
+    year: 2011,
+    director: ['Olivier Nakache', 'Éric Toledano'],
+    genre: ['biography', 'comedy', 'drama'],
+    runtime: 112
+  },
+  {
+    name: 'The Lion King',
+    year: 1994,
+    director: ['Roger Allen', 'Rob Minkoff'],
+    genre: ['animation', 'adventure', 'drama'],
+    runtime: 88
+  },
+  {
+    name: 'The Lord of the Rings: The Fellowship of the Ring',
+    year: 2001,
+    director: 'Peter Jackson',
+    genre: ['action', 'adventure', 'drama'],
+    runtime: 178
+  },
+  {
+    name: 'The Lord of the Rings: The Two Towers',
+    year: 2002,
+    director: 'Peter Jackson',
+    genre: ['action', 'adventure', 'drama'],
+    runtime: 179
+  },
+  {
+    name: 'The Lord of the Rings: The Return of the King',
+    year: 2003,
+    director: 'Peter Jackson',
+    genre: ['action', 'adventure', 'drama'],
+    runtime: 201
+  },
+  {
+    name: 'The Matrix',
+    year: 1999,
+    director: ['Lana Wachoski', 'Lily Wachowksi'],
+    genre: ['action', 'sci-fi'],
+    runtime: 136
+  },
+  {
+    name: 'The Notebook',
+    year: 2004,
+    director: 'Nick Cassavetes',
+    genre: ['drama', 'romance'],
+    runtime: 123
+  },
+  {
+    name: 'The Pianist',
+    year: 2002,
+    director: 'Roman Polanski',
+    genre: ['biography', 'drama', 'music'],
+    runtime: 150
+  },
+  {
+    name: 'The Prestige',
+    year: 2006,
+    director: 'Christopher Nolan',
+    genre: ['drama', 'mystery', 'sci-fi'],
+    runtime: 130
+  },
+  {
+    name: 'The Rocky Horror Picture Show',
+    year: 1975,
+    director: 'Jim Sharman',
+    genre: ['comedy', 'horror', 'musical'],
+    runtime: 100
+  },
+  {
+    name: 'The Shawshank Redemption',
+    year: 1994,
+    director: 'Frank Darabont',
+    genre: ['drama'],
+    runtime: 142
+  },
+  {
+    name: 'The Shining',
+    year: 1980,
+    director: 'Stanley Kubrick',
+    genre: ['drama', 'horror'],
+    runtime: 146
+  },
+  {
+    name: 'The Silence of the Lamb',
+    year: 1991,
+    director: 'Jonathan Demme',
+    genre: ['crime', 'drama', 'thriller'],
+    runtime: 118
+  },
+  {
+    name: 'The Terminator',
+    year: 1984,
+    director: 'James Cameron',
+    genre: ['action', 'sci-fi'],
+    runtime: 107
+  },
+  {
+    name: 'The Truman Show',
+    year: 1998,
+    director: 'Peter Weir',
+    genre: ['comedy', 'drama'],
+    runtime: 103
+  },
+  {
+    name: 'The Usual Suspects',
+    year: 1995,
+    director: 'Bryan Singer',
+    genre: ['crime', 'mystery', 'thriller'],
+    runtime: 106
+  },
+  {
+    name: 'The Wizard of Oz',
+    year: 1939,
+    director: ['Victor Fleming', 'George Cukor', 'Mervyn LeRoy', 'Norman Taurog', 'Richard Thorpe', 'King Vidor'],
+    genre: ['adventure', 'family', 'fantasy'],
+    runtime: 102
+  },
+  {
+    name: 'This Is Spinal Tap',
+    year: 1984,
+    director: 'Rob Reiner',
+    genre: ['comedy', 'music'],
+    runtime: 82
+  },
+  {
+    name: 'Titanic',
+    year: 1997,
+    director: 'James Cameron',
+    genre: ['drama', 'romance'],
+    runtime: 194
+  },
+  {
+    name: 'Toy Story',
+    year: 1995,
+    director: 'John Lasseter',
+    genre: ['animation', 'adventure', 'comedy'],
+    runtime: 81
+  },
+  {
+    name: 'Trainspotting',
+    year: 1996,
+    director: 'Danny Boyle',
+    genre: ['drama'],
+    runtime: 93
+  },
+  {
+    name: 'Up',
+    year: 2009,
+    director: ['Pete Docter', 'Bob Peterson'],
+    genre: ['animation', 'adventure', 'comedy'],
+    runtime: 81
+  },
+  {
+    name: 'Vertigo',
+    year: 1958,
+    director: 'Alfred Hitchcock',
+    genre: ['mystery', 'romance', 'thriller'],
+    runtime: 128
+  },
+  {
+    name: 'WALL-E',
+    year: 2008,
+    director: 'Andrew Stanton',
+    genre: ['animation', 'adventure', 'comedy'],
+    runtime: 98
+  }
 ]
